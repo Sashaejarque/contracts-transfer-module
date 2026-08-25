@@ -1,6 +1,6 @@
 {
   "name": "contracts-transfers-modules",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Tipos compartidos (DTOs) entre los servicios del sistema de transferencias bancarias. Cero dependencias de runtime — solo TypeScript.",
   "types": "dist/index.d.ts",
   "files": [

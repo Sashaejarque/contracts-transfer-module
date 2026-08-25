@@ -9,4 +9,5 @@ export interface LedgerEntry {
   amount: number; // entero en centavos, nunca float (ADR-007)
   coelsaId?: string; // presente solo cuando status === "LIQUIDADO"
   reason?: string; // presente solo cuando status === "REVERTIDO"
+  receiptKey?: string; // key del PDF en S3 (nunca una URL) -- lo agrega la Lambda de pdf-receipt via DynamoDB Streams, puede tardar unos segundos en aparecer
 }
